@@ -1,99 +1,133 @@
-.div {
-  border-style: solid;
-  border-color: coral
+@font-face {
+  font-family: 'Helvetica Neue Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Helvetica Neue Medium'), url('./assets/fonts/HelveticaNeue-Medium.woff') format('woff');
 }
-
+@font-face {
+  font-family: 'Helvetica Neue Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Helvetica Neue Light'), url('./assets/fonts/HelveticaNeue-Light.woff') format('woff');
+}
+  
 .group {
-  height: 752px;
-  width: 387px;
-  border: 1px;
-  border-color: coral;
-  border-style: solid;
-  padding-top: 32px;
-  padding-left: 14px;
-  padding-right: 13px;
-  margin: 9px 0px 0px 9px;
-}
-
-.group2 {
-  box-shadow: 0px 3px 5px 3px #faa;
+  width: 360px;
+  height: 720px;
   background-color: #eee;
-  height: 100%;
-  width: 100%;
+  box-shadow: 0px 3px 4px 3px #faa;
 }
 
 .menu {
   background-color: #fff;
-  box-shadow: 1px 3px 3px 1px #aaa;
-  padding: 12px;
+  box-shadow: 1px 1px 5px 0 rgba(0,0,29,0.22);
+  border-radius: 3px;
+  padding: 10.5px;
   height: 'auto';
   width: 'auto';
   display: flex;
   flex-direction: row;
-  justify-content: space-around
+  justify-content: space-between
+}
+
+.menu-itens {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  font-family: "Helvetica Neue Medium";
+  font-weight: 700;
+  font-size: 13px
 }
 
 .menu-item1 {
-  background-color: Transparent;
-  background-repeat:no-repeat;
-  border: none;
-  cursor:pointer;
-  overflow: hidden;
-  outline:none;
-  height: 'auto';
-  width: 'auto';
-  color: #FF7800;
-  font-family: Helvetica Neue, Arial, sans-serif;
-  font-weight: 518;
-  font-size: 13px;  
+  color: #FF7800
 }
 
 .menu-item2 {
-  background-color: Transparent;
-  background-repeat:no-repeat;
-  border: none;
-  cursor:pointer;
-  overflow: hidden;
-  outline:none;
-  height: 'auto';
-  width: 'auto';
-  color: #ccc;
-  font-family: Helvetica Neue, Arial, sans-serif;
-  font-weight: 518;
-  font-size: 13px;  
+  color: #ccc
 }
 
 .menu-item3 {
+  color: #ccc
+}
+
+.titProduto {
   background-color: Transparent;
   background-repeat:no-repeat;
   border: none;
   cursor:pointer;
   overflow: hidden;
   outline:none;
-  height: 'auto';
-  width: 'auto';
-  color: #ccc;
-  font-family: Helvetica Neue, Arial, sans-serif;
-  font-weight: 518;
-  font-size: 13px;  
+  color: #999;
+  font-family: 'Helvetica Neue Medium';
+  font-weight: 700;
+  font-size: 14px;
+  margin: 12px 21px 0px 17px;
+  justify-content: flex-start
 }
 
-.groupy {
-  height: 752px;
-  width: 387px;
-  box-shadow: 0px 3px 5px 3px #faa;
-  padding-top: 32px;
-  padding-left: 14px;
-  padding-right: 13px;
-  margin: 9px 0px 0px 9px;
+.produtos {
+  width: 341px;
+  height: 325px;
+  border-radius: 3px;
+  background-color: #FFF;
+  box-shadow: 1px 1px 5px 0 rgba(0,0,29,0.22);
+  margin: 6px 0px 0px 7px
 }
 
-.group2y {
-  height: 100%;
-  width: 100%;
-  border: 2px;
-  border-color: coral;
-  border-style: solid;
+.totais {
+  box-sizing: border-box;
+  height: 129px;
+  width: 341px;
+  border-radius: 3px;
+  border: 1px solid #CCC;
+  box-shadow: 0px 0px 0px 0 rgba(0,0,29,0.22);
+  margin: 19px 0px 0px 7px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 12px 20px 12px;
+  justify-content: space-between
+}
+
+.totprodutos {
+  font-family: "Helvetica Neue Light";
+  font-size: 14px;
+  padding: 4px 0px 2px 2px;
+  margin: 2px 0 1px 0;
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+
+.totaldesconto {
+  color: #FF7800;
+}
+
+.totalprodutos {
+  margin: 10px 0 2px 0;
+  font-family: "Helvetica Neue Medium";
+}
+
+.seguir {
+  height: 60px;
+  width: 341px;
+  border-radius: 3px;
+  background-color: #FF6C00;
+  box-shadow: inset 0 -2px 0 0 #D45A00;
+  margin: 20px 0px 0px 7px;
+
+  color: #FFF;
+  font-family: "Helvetica Neue Medium";
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  text-align: center;
 }
 
 .App {
