@@ -26,7 +26,12 @@ class App extends Component {
         <div id='Produtos' className='produtos'>
         
           <div id='Produto1' className='itemProduto'>
-            <img alt="Imagem do Produto: L'Oréal Professionnel Expert Absolut Repair Cortex Lipidium - Máscara de Reconstrução 500g" className='imgproduto' src=	"https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_auto:best/v1/imagens/2/loreal-professionnel-expert-absolut-repair-cortex-lipidium-mascara-de-reconstrucao-500g-24410-963234120108391775.png"/>
+            <img
+              alt="Imagem do Produto: L'Oréal Professionnel Expert Absolut Repair Cortex Lipidium - Máscara de Reconstrução 500g"
+              title="Imagem do Produto: L'Oréal Professionnel Expert Absolut Repair Cortex Lipidium - Máscara de Reconstrução 500g"
+              className='imgproduto'
+              src=	"https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_auto:best/v1/imagens/2/loreal-professionnel-expert-absolut-repair-cortex-lipidium-mascara-de-reconstrucao-500g-24410-963234120108391775.png"
+            />
             <div className='txtproduto9'>
               <text className='txtproduto'>L'Oréal Professionnel Expert Absolut Repair Cortex Lipidium</text>
               <text className='vlrproduto'>R$ 225,90</text>
@@ -34,7 +39,12 @@ class App extends Component {
           </div>
           
           <div id='Produto2' className='itemProduto'>
-            <img alt="Imagem do Produto: Good Girl Carolina Herrera Eau de Parfum - Perfume Feminino 30ml" className='imgproduto' src="https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_auto:best/v1/imagens/2/good-girl-carolina-herrera-eau-de-parfum-perfume-feminino-30ml-38273-1960525940762131267.jpg"/>
+            <img
+              alt="Imagem do Produto: Good Girl Carolina Herrera Eau de Parfum - Perfume Feminino 30ml"
+              title="Imagem do Produto: Good Girl Carolina Herrera Eau de Parfum - Perfume Feminino 30ml"
+              className='imgproduto'
+              src="https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_auto:best/v1/imagens/2/good-girl-carolina-herrera-eau-de-parfum-perfume-feminino-30ml-38273-1960525940762131267.jpg"
+            />
             <div className='txtproduto9'>
               <text className='txtproduto'>Good Girl Carolina Herrera Eau de Parfum - Perfume Feminino 30ml</text>
               <text className='vlrproduto'>R$ 299,00</text>
@@ -42,7 +52,12 @@ class App extends Component {
           </div>
           
           <div id='Produto3' className='itemProduto'>
-            <img alt="Imagem do Produto: Senscience Inner Restore Intensif - Máscara Capilar 50ml" className='imgproduto' src="https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_auto:best/v1/imagens/2/senscience-inner-restore-intesif-deep-repairing-masque-mascara-de-tratamento-50ml-3019-7903251722539384904.png"/>
+            <img
+              alt="Imagem do Produto: Senscience Inner Restore Intensif - Máscara Capilar 50ml"
+              title="Imagem do Produto: Senscience Inner Restore Intensif - Máscara Capilar 50ml"
+              className='imgproduto'
+              src="https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_auto:best/v1/imagens/2/senscience-inner-restore-intesif-deep-repairing-masque-mascara-de-tratamento-50ml-3019-7903251722539384904.png"
+            />
             <div className='txtproduto9'>
               <text className='txtproduto'>Senscience Inner Restore Intensif - Máscara Capilar 50ml</text>
               <text className='vlrproduto'>R$ 99,90</text>
