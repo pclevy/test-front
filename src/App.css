@@ -10,7 +10,13 @@
   font-weight: normal;
   src: local('Helvetica Neue Light'), url('./assets/fonts/HelveticaNeue-Light.woff') format('woff');
 }
-  
+@font-face {
+  font-family: 'Helvetica 35 Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Helvetica 35 Thin'), url('./assets/fonts/HelveticaNeue-Thin.woff') format('woff');
+}
+
 .group {
   width: 360px;
   height: 720px;
@@ -71,11 +77,81 @@
 
 .produtos {
   width: 341px;
-  height: 325px;
+  height: 320px;
   border-radius: 3px;
   background-color: #FFF;
   box-shadow: 1px 1px 5px 0 rgba(0,0,29,0.22);
-  margin: 6px 0px 0px 7px
+  margin: 4px 0px 0px 7px;
+  padding: 5px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around
+}
+
+.itemProduto9 {
+  box-sizing: border-box;
+  width: 316px;
+  height: 90px;
+  border-radius: 3px;
+  border: 1px solid #CCC;
+  box-shadow: 0px 0px 0px 0 rgba(0,0,29,0.22);
+  margin: 0px 12px 0px 13px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 12px 20px 12px;
+  justify-content: space-between
+}
+
+.itemProduto {
+  box-sizing: border-box;
+  width: 316px;
+  height: 90px;
+  border-radius: 3px;
+  border: 1px solid #CCC;
+  padding: 12px 12px 0px 11px;
+  display: flex;
+  flex-direction: row;
+}
+
+.imgproduto {
+  width: 65px;
+  height: 65px;
+}
+
+.txtproduto9 {
+  margin: 0px 0px 0px 1px;
+  padding: 0px 0px 0px 0px;
+  font-family: "Helvetica Neue Light";
+  font-size: 13px;
+  font-weight: "regular";
+  display: flex;
+  flex-direction: column;
+}
+
+.txtproduto {
+  height: 32px;
+  width: 220px;
+  color: #212122;
+  font-family: "Helvetica Neue Light";
+  font-size: 13.5px;
+  line-height: 16px;
+
+  margin: 0px 0px 0px 9px;
+  padding: 0px 0px 0px 0px;
+
+}
+
+.vlrproduto {
+  width: '100%';
+  background-color:'transparent';
+  margin: 9px 0px 0px 9px;
+  padding: 10px 0px 0px 0px;
+  color: #212122;
+  font-family: "Helvetica Neue Medium";
+  font-size: 13px;
+  font-weight: 700;
+  text-align: right
 }
 
 .totais {
@@ -88,7 +164,7 @@
   margin: 19px 0px 0px 7px;
   display: flex;
   flex-direction: column;
-  padding: 10px 12px 20px 12px;
+  padding: 6px 11px 20px 13px;
   justify-content: space-between
 }
 
@@ -102,6 +178,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between
+}
+
+.totprodutos9 {
+  font-family: "Helvetica Neue Light";
+  font-size: 14px;
 }
 
 .totaldesconto {
