@@ -18,20 +18,18 @@
 }
 
 .group {
-  width: 358px;
+  width: 360px;
   height: 720px;
-  background-color: #eee;
-  box-shadow: 1px 2px 0px 0px #faa;
+  background-color: #eee
 }
 
 .menu {
   background-color: #fff;
-  box-shadow: 1px 1px 5px 0 rgba(0,0,29,0.22);
-  border-radius: 3px;
-  padding-left: 11.5px;
-  padding-top: 11.5px;
+  padding-left: 12px;
+  padding-right: 5px;
+  padding-top: 12px;
   padding-bottom: 11.5px;
-  margin: 0px 9px 0px 0px;
+  margin: 1px 0px 0px 0px;
   display: flex;
   flex-direction: row;
   align-content: center;
@@ -39,12 +37,11 @@
 }
 
 .menu-itens {
+  width: auto;
   background-color: Transparent;
   background-repeat:no-repeat;
   border: none;
-  cursor:pointer;
   overflow: hidden;
-  outline:none;
   font-family: "Helvetica Neue Medium";
   font-weight: 700;
   font-size: 13px
@@ -55,11 +52,13 @@
 }
 
 .menu-item2 {
-  color: #ccc
+  color: #ccc;
+  padding-left: 11px;
 }
 
 .menu-item3 {
-  color: #ccc
+  color: #ccc;
+  padding-right: 11px;
 }
 
 .titProduto {
@@ -73,18 +72,18 @@
   font-family: 'Helvetica Neue Medium';
   font-weight: 700;
   font-size: 14px;
-  margin: 11px 21px 0px 18px;
+  margin: 11px 21px 0px 20px;
   justify-content: flex-start
 }
 
 .produtos {
   width: 341px;
-  height: 316px;
+  height: 314px;
   border-radius: 3px;
   background-color: #FFF;
   box-shadow: 1px 1px 5px 0 rgba(0,0,29,0.22);
-  margin: 4px 0px 0px 7px;
-  padding: 7px 0px 5px 0px;
+  margin: 5px 0px 0px 9px;
+  padding: 6px 0px 5px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -111,8 +110,8 @@
   height: 90px;
   border-radius: 3px;
   border: 1px solid #CCC;
-  padding: 10px 12px 0px 11px;
-  margin: 0px 0px 4px 0px;
+  padding: 9px 12px 1px 9px;
+  margin: 1px 0px 4px 0px;
   display: flex;
   flex-direction: row;
 }
@@ -123,8 +122,8 @@
 }
 
 .txtproduto9 {
-  margin: 0px 0px 0px 1px;
-  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  padding: 1px 0px 0px 0px;
   font-family: "Helvetica Neue Light";
   font-size: 13px;
   font-weight: "regular";
@@ -138,17 +137,15 @@
   color: #212122;
   font-family: "Helvetica Neue Light";
   font-size: 13.5px;
-  line-height: 16px;
-
-  margin: 0px 0px 0px 9px;
+  margin: 0px 0px 0px 11px;
   padding: 0px 0px 0px 0px;
 
 }
 
 .vlrproduto {
-  width: '100%';
+  width: 220px;
   background-color:'transparent';
-  margin: 9px 0px 0px 9px;
+  margin: 7px 0px 0px 10px;
   padding: 10px 0px 0px 0px;
   color: #212122;
   font-family: "Helvetica Neue Medium";
@@ -163,21 +160,18 @@
   width: 341px;
   border-radius: 3px;
   border: 1px solid #CCC;
-  box-shadow: 0px 0px 0px 0 rgba(0,0,29,0.22);
-  margin: 19px 0px 0px 7px;
+  margin: 19px 0px 0px 9px;
   display: flex;
   flex-direction: column;
-  padding: 6px 11px 20px 13px;
+  padding: 8px 13px 20px 13px;
   justify-content: space-between
 }
 
 .totprodutos {
   font-family: "Helvetica Neue Light";
-  font-size: 14px;
-  padding: 4px 0px 2px 2px;
-  margin: 2px 0 1px 0;
-  display: flex;
-  flex-direction: row;
+  font-size: 13px;
+  padding: 4px 0px 2px 0px;
+  margin: 2px 0px 1px 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-between
@@ -185,11 +179,28 @@
 
 .totprodutos9 {
   font-family: "Helvetica Neue Light";
+  font-size: 14.5px;
+}
+
+.valprodutos {
+  font-family: "Helvetica Neue Light";
   font-size: 14px;
+  text-align: right;
+  margin: 0px 0px 0px 0px;
+  padding-right: 0px;
+}
+
+.totalfrete {
+  margin: 0px 0px 0px 0px;
 }
 
 .totaldesconto {
   color: #FF7800;
+  margin: 1px 0px 0px 0px;
+}
+
+.totaltotal {
+  margin: 11px 0px 0px 1px;
 }
 
 .totalprodutos {
@@ -203,7 +214,7 @@
   border-radius: 3px;
   background-color: #FF6C00;
   box-shadow: inset 0 -2px 0 0 #D45A00;
-  margin: 20px 0px 0px 7px;
+  margin: 21px 0px 0px 10px;
 
   color: #FFF;
   font-family: "Helvetica Neue Medium";

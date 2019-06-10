@@ -80,7 +80,7 @@ class App extends Component {
           </div>
 
           <div id="TotFrete" className="totprodutos">
-            <div id="Totfrete9" className="totprodutos9">
+            <div id="Totfrete9" className="totprodutos9 totalfrete">
               FRETE
             </div>
             <div id="ValFrete" className="valprodutos">
@@ -88,20 +88,20 @@ class App extends Component {
             </div>
           </div>
 
-          <div id="TotFrete" className="totprodutos totaldesconto">
-            <div id="Totfrete9" className="totprodutos9">
+          <div id="TotDesconto" className="totprodutos totaldesconto">
+            <div id="TotDesconto9" className="totprodutos9">
               DESCONTO
             </div>
-            <div id="ValFrete" className="valprodutos">
+            <div id="ValDesconto" className="valprodutos">
               - R$ 30,00
             </div>
           </div>
 
-          <div id="TotFrete" className="totprodutos totalprodutos">
-            <div id="Totfrete9" className="totprodutos9">
+          <div id="TotTotal" className="totprodutos totaltotal">
+            <div id="TotTotal9" className="totprodutos9">
               TOTAL
             </div>
-            <div id="ValFrete" className="valprodutos">
+            <div id="ValTotal" className="valprodutos">
               R$ 600,10
             </div>
           </div>
