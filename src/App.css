@@ -29,7 +29,7 @@
   padding-right: 5px;
   padding-top: 12px;
   padding-bottom: 11.5px;
-  margin: 1px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   display: flex;
   flex-direction: row;
   align-content: center;
@@ -58,7 +58,8 @@
 
 .menu-item3 {
   color: #ccc;
-  padding-right: 11px;
+  padding-top: 0px;
+  padding-right: 12px;
 }
 
 .titProduto {
@@ -72,7 +73,7 @@
   font-family: 'Helvetica Neue Medium';
   font-weight: 700;
   font-size: 14px;
-  margin: 11px 21px 0px 20px;
+  margin: 12px 21px 0px 20px;
   justify-content: flex-start
 }
 
@@ -110,8 +111,8 @@
   height: 90px;
   border-radius: 3px;
   border: 1px solid #CCC;
-  padding: 9px 12px 1px 9px;
-  margin: 1px 0px 4px 0px;
+  padding: 10px 12px 1px 10px;
+  margin: 0px 0px 4px 0px;
   display: flex;
   flex-direction: row;
 }
@@ -123,7 +124,7 @@
 
 .txtproduto9 {
   margin: 0px 0px 0px 0px;
-  padding: 1px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   font-family: "Helvetica Neue Light";
   font-size: 13px;
   font-weight: "regular";
@@ -136,7 +137,9 @@
   width: 220px;
   color: #212122;
   font-family: "Helvetica Neue Light";
-  font-size: 13.5px;
+  font-size: 12.5px;
+  letter-spacing: 0.442px;
+  line-height: 16.39px;
   margin: 0px 0px 0px 11px;
   padding: 0px 0px 0px 0px;
 
@@ -144,13 +147,14 @@
 
 .vlrproduto {
   width: 220px;
-  background-color:'transparent';
-  margin: 7px 0px 0px 10px;
+  background-color:'#00ff00';
+  margin: 7px 0px 0px 11px;
   padding: 10px 0px 0px 0px;
   color: #212122;
   font-family: "Helvetica Neue Medium";
   font-size: 13px;
   font-weight: 700;
+  letter-spacing: 0.44px;
   text-align: right
 }
 
@@ -160,7 +164,7 @@
   width: 341px;
   border-radius: 3px;
   border: 1px solid #CCC;
-  margin: 19px 0px 0px 9px;
+  margin: 20px 0px 0px 9px;
   display: flex;
   flex-direction: column;
   padding: 8px 13px 20px 13px;
