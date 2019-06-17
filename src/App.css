@@ -1,3 +1,4 @@
+{/*
 @font-face {
   font-family: 'Helvetica Neue Medium';
   font-style: normal;
@@ -11,11 +12,18 @@
   src: local('Helvetica Neue Light'), url('./assets/fonts/HelveticaNeue-Light.woff') format('woff');
 }
 @font-face {
+font-family: 'Helvetica Neue Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica Neue Bold'), url('./assets/fonts/HelveticaNeueBold.woff') format('woff');
+}
+@font-face {
   font-family: 'Helvetica 35 Thin';
   font-style: normal;
   font-weight: normal;
   src: local('Helvetica 35 Thin'), url('./assets/fonts/HelveticaNeue-Thin.woff') format('woff');
 }
+*/}
 
 .group {
   width: 360px;
@@ -204,12 +212,22 @@
 }
 
 .totaltotal {
-  margin: 11px 0px 0px 1px;
+  margin: 11px 0px 0px 0px;
 }
 
-.totalprodutos {
-  margin: 10px 0 2px 0;
-  font-family: "Helvetica Neue Medium";
+.totalprodutostit {
+  margin: 0px 0 0px 0;
+  padding-left: 0px 0px 0px 10px;
+  font-family: "Helvetica Neue Bold";
+  font-size: 14px;
+  text-align: left;
+}
+
+.totalprodutosvlr {
+  margin: 0px 0 0px 0;
+  font-family: "Helvetica Neue Bold";
+  font-size: 14px;
+  text-align: right;
 }
 
 .seguir {

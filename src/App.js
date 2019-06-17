@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 //import logo from './logo.svg';
 import './App.css'
 
+import { StyledButton } from './styledButton';
+
 class App extends Component {
   render() {
     return (
@@ -98,18 +100,25 @@ class App extends Component {
           </div>
 
           <div id="TotTotal" className="totprodutos totaltotal">
-            <div id="TotTotal9" className="totprodutos9">
+            <div id="TotTotal9" className="totalprodutostit">
               TOTAL
             </div>
-            <div id="ValTotal" className="valprodutos">
+            <div id="ValTotal" className="totalprodutosvlr">
               R$ 600,10
             </div>
           </div>
         </div>
 
-        <button id="Seguir" className="seguir">
+        {/*
+          <button id="Seguir" className="seguir">
+            SEGUIR PARA O PAGAMENTO
+          </button>
+        */}
+
+        <StyledButton>
           SEGUIR PARA O PAGAMENTO
-        </button>
+        </StyledButton>
+
       </div>
     )
   }

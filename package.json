@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {
     "react": "^16.8.5",
-    "react-dom": "^16.8.5"
+    "react-dom": "^16.8.5",
+    "styled-components": "^4.3.1"
   },
   "devDependencies": {
     "eslint": "^5.12.0",
